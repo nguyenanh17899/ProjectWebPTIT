@@ -37,3 +37,70 @@ body #content{
 #content .content-header-bottom ul li a:hover{
     color: #A36F72;
 }
+#content .latest-news{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    height: auto;
+}
+#content .latest-news .big-news{
+    float: left;
+    width: 65%;
+}
+.latest-news .item{
+    position: relative;
+}
+#content .latest-news .big-news .img{
+    width: 100%;
+}
+#content .latest-news .big-news .img img{
+    width: 100%;
+}
+.latest-news .inner{
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    right: 0;
+    padding: 50px 10px 10px;
+    background: url(./image/Rectangle-10.png);
+    background-size: 100% 100%;
+}
+.latest-news .col2 .news-name{
+    display: block;
+    height: 54px;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.latest-news .col2 .news-name a{
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff !important;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    text-decoration: none;
+}
+.latest-news .col2 .news-name a:hover,
+.latest-news .col2 .news-name a:focus{
+    color: #000000;
+}
+.latest-news .col2{
+    float: right;
+    width: 32%;
+}
+.latest-news .col2 .medium-news:last-child .item{
+    margin-top: 5px;
+}
+@media screen and (max-width: 1129px){
+    .latest-news .col2 .medium-news:last-child .item{
+        margin-top: 1px;
+    }
+}
+#content .latest-news .medium-news .img{
+    width: 100%;
+}
+#content .latest-news .medium-news .img img{
+    object-fit: cover;
+    width: 100%;
+}
