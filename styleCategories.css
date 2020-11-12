@@ -40,7 +40,9 @@ body #content{
 #content .latest-news{
     margin-top: 15px;
     margin-bottom: 20px;
-    height: auto;
+    width: 100%;
+    float: left;
+    display: block;
 }
 #content .latest-news .big-news{
     float: left;
@@ -75,15 +77,15 @@ body #content{
     font-size: 14px;
     font-weight: 600;
     color: #fff !important;
-    transition: all .5s ease;
-    -webkit-transition: all .5s ease;
-    -moz-transition: all .5s ease;
-    -o-transition: all .5s ease;
+    transition: all 0.1s ease;
+    -webkit-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
     text-decoration: none;
 }
 .latest-news .col2 .news-name a:hover,
 .latest-news .col2 .news-name a:focus{
-    color: #000000;
+    font-size: 16px;
 }
 .latest-news .col2{
     float: right;
@@ -103,4 +105,50 @@ body #content{
 #content .latest-news .medium-news .img img{
     object-fit: cover;
     width: 100%;
+}
+#content .big-news .item .news-name a{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff !important;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    text-decoration: none;
+}
+#content .big-news .item .news-name a:hover,
+#content .big-news .item .news-name a:focus{
+    font-size: 22px;
+}
+#content .big-news .item .desc{
+    margin-top: 10px;
+    font-size: 15px;
+    color: #fff !important;
+}
+#content .older-news{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    width: 100%;
+    float: left;
+    display: block;
+}
+#content .older-news .col1{
+    width: 775px;
+    padding-right: 30px;
+    border-right: 1px solid #e5e5e5;
+}
+#content .older-news .col1 .img{
+    width: 230px;
+    margin-left: 40px;
+    float: left;
+}
+#content .older-news .col1 .img img{
+    width: 100%;
+    float: left;
+    object-fit: cover;
+}
+.list-news .title-news{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 5px;
 }
