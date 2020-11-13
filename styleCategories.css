@@ -133,22 +133,33 @@ body #content{
     display: block;
 }
 #content .older-news .col1{
-    width: 775px;
-    padding-right: 30px;
-    border-right: 1px solid #e5e5e5;
+    width: 65%;
 }
 #content .older-news .col1 .img{
     width: 230px;
-    margin-left: 40px;
     float: left;
+    margin-right: 50px;
 }
 #content .older-news .col1 .img img{
     width: 100%;
     float: left;
     object-fit: cover;
 }
+.list-news .desc a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 16px;
+    line-height: 1.5;
+}
 .list-news .title-news{
-    font-size: 20px;
-    font-weight: 400;
-    margin-bottom: 5px;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.list-news .title-news a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
 }
